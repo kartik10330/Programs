@@ -1,0 +1,14 @@
+i=int(input("enter any number "))
+p=i*i
+print("the square of entered number is ",p)
+from sympy import *
+k=isprime(i)
+if k==true:
+    print("the number entered is prime ")
+else:
+    print("the number entered is not prime ")
+z=int(input("enter 1st number "))
+l=int(input("enter 2nd number "))
+j=int(input("enter 3nd number "))
+h=int(input("enter 4nd number "))
+d=z+l+j+h

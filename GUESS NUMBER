@@ -1,0 +1,20 @@
+import random
+print("welcom to the guess game, where you have to guess the number, if you choose the right run=mber you will win ")
+chances=7
+num=random.randrange(100)
+run=0
+while run in range (6):
+    enter=int(input("guess any number "))
+    run+=1
+    chances-=1
+    if num==enter:
+        print("yup! you won the game, you guessed the corred number ")
+        break
+    if num!=enter:
+        print("you guessed the wrong number, try again you have now ",chances,"chances")
+    if enter<num:
+        print("you have entered lesser number ")
+    elif enter>num:
+        print("you have entered greater number ")
+    elif chances==0:
+        print("you lost the game the correct number is ",num)

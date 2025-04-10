@@ -1,0 +1,9 @@
+# Function to sort words in alphabetical order
+def sort_words(sentence):
+    words = sentence.split()
+    words.sort()
+    sorted_sentence = ' '.join(words)
+    return sorted_sentence
+sentence = input("Enter a sentence: ")
+sorted_sentence = sort_words(sentence)
+print("Sorted Sentence:", sorted_sentence)

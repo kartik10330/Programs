@@ -1,0 +1,3 @@
+text = input("Enter a string: ")
+capitalized_text = text.upper()
+print("Capitalized string:", capitalized_text)

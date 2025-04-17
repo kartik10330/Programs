@@ -1,0 +1,10 @@
+Dict = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+key_to_check = input("Enter the key to check: ")
+if key_to_check in Dict:
+    print(f"Key '{key_to_check}' is present in the dictionary: {Dict[key_to_check]}")
+else:
+    print(f"Key '{key_to_check}' is NOT present")

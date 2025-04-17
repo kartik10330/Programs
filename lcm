@@ -1,0 +1,15 @@
+def find_lcm(x, y):
+    if x > y:
+        great = x
+    else:
+        great = y
+
+    while True:
+        if great % x == 0 and great % y == 0:
+            return great
+        great += 1
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+lcm = find_lcm(num1, num2)
+print(f"The LCM of {num1} and {num2} is {lcm}")
